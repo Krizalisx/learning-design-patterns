@@ -1,0 +1,21 @@
+- The strategy pattern is essentially just using composition over inheritance.
+
+- Classes can be represented as specific composition of algorithms (strategies) which we simply gave a particular name.
+
+- There are 2 flavors of Observer pattern:
+  - Context is provided in 'update' method (problem: all subscribers can be notified with unnecessary info);
+  - Concrete observable implementation is injected into subscribers (problem: coupling to concrete implementations + more unnecessary info for subscribers).
+
+- Decorator pattern:
+  - Can help us avoid class explosion;
+  - Should be used in case when overridden methods have substantial differences in their behavior.
+  - We need to track logical coherence when creating decorators: 'is-a' relationship should be sensible.
+
+- We PROBABLY may use inheritance ONLY if we hope to achieve the following 2 goals:
+  - Code reuse from a base class;
+  - Polymorphism.
+  In the rest of situations we should definitely prefer using composition.
+
+ 
+
+

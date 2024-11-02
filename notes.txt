@@ -1,4 +1,4 @@
-- The strategy pattern is essentially just using composition over inheritance.
+- The Strategy pattern is essentially just using composition over inheritance.
 
 - Classes can be represented as specific composition of algorithms (strategies) which we simply gave a particular name.
 
@@ -16,6 +16,10 @@
   - Polymorphism.
   In the rest of situations we should definitely prefer using composition.
 
+- There is a confusion about different Factory patterns: https://refactoring.guru/design-patterns/factory-comparison
  
-
+- Command pattern is similar to Strategy pattern, however:
+  - Commands return void;
+  - Usually commands support 'unexecute' behavior;
+  - Strategies are not meant to (but, of course, could) be collected in queues and executed in batches unlike commands.
 

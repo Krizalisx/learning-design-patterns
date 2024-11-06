@@ -23,3 +23,4 @@
   - Usually commands support 'unexecute' behavior;
   - Strategies are not meant to (but, of course, could) be collected in queues and executed in batches unlike commands.
 
+- Facade pattern is intended to provide limited functionality to a complex subsystem. If a client wants more, he should dive into subsystem internals.

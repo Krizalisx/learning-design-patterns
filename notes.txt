@@ -24,3 +24,6 @@
   - Strategies are not meant to (but, of course, could) be collected in queues and executed in batches unlike commands.
 
 - Facade pattern is intended to provide limited functionality to a complex subsystem. If a client wants more, he should dive into subsystem internals.
+
+- Proxy looks very similar to Decorator, however, the main difference is in the intent: control the access to the original object.
+  Usually, proxies create and manage the whole life cycle of their services. On rare occasions, a service is passed to the proxy via a constructor.

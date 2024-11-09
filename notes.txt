@@ -27,3 +27,4 @@
 
 - Proxy looks very similar to Decorator, however, the main difference is in the intent: control the access to the original object.
   Usually, proxies create and manage the whole life cycle of their services. On rare occasions, a service is passed to the proxy via a constructor.
+  Besides, Proxy has a reference on the implementation and not on the original interface (which it also implements).

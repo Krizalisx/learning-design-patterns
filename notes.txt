@@ -29,5 +29,5 @@
   Usually, proxies create and manage the whole life cycle of their services. On rare occasions, a service is passed to the proxy via a constructor.
   Besides, Proxy has a reference on the implementation and not on the original interface (which it also implements).
 
- - Bridge pattern as well as Strategy pattern are two essential patterns in OOP. Bridge can be considered as an extended Strategy in case when
+- Bridge pattern as well as Strategy pattern are two essential patterns in OOP. Bridge can be considered as an extended Strategy in case when
   'Abstraction' part also has hierarchy. Both can be treated as 'Favor composition over inheritance' rule.

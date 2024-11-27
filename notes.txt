@@ -34,3 +34,6 @@
 
 - The key difference between the Composite and the Decorator patterns (except the intent) is that the Decorator is intended to wrap one object, while
   the Composite is intended to wrap a collection of objects which results in a tree structure.
+
+- The key difference between the Iterator and the Bridge patterns is that each concrete iterable is coupled to a set of concrete iterator classes it
+  returns, whereas in the Bridge pattern it operates on interfaces. However, a client isn't coupled to the concrete implementations in both cases.

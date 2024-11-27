@@ -1,8 +1,8 @@
-package com.design.patterns.creational.factory_method.example.gui;
+package com.design.patterns.creational.factory_method.gui;
 
-import com.design.patterns.creational.factory_method.example.gui.creator.Dialog;
-import com.design.patterns.creational.factory_method.example.gui.creator.HtmlDialog;
-import com.design.patterns.creational.factory_method.example.gui.creator.WindowsDialog;
+import com.design.patterns.creational.factory_method.gui.creator.Dialog;
+import com.design.patterns.creational.factory_method.gui.creator.HtmlDialog;
+import com.design.patterns.creational.factory_method.gui.creator.WindowsDialog;
 
 public class Client {
 
@@ -31,8 +31,7 @@ public class Client {
     }
 
     /**
-     * All of the client code should work with factories and products through
-     * abstract interfaces. This way it does not care which factory it works
+     * All of the client code should work with factories and products through abstract interfaces. This way it does not care which factory it works
      * with and what kind of product it returns.
      */
     private static void runBusinessLogic() {

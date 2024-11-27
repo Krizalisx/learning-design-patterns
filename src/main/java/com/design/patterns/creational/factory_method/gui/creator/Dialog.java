@@ -1,11 +1,10 @@
-package com.design.patterns.creational.factory_method.example.gui.creator;
+package com.design.patterns.creational.factory_method.gui.creator;
 
-import com.design.patterns.creational.factory_method.example.gui.product.Button;
+import com.design.patterns.creational.factory_method.gui.product.Button;
 
 /**
- * Base factory class. Note that "factory" is merely a role for the class. It
- * should have some core business logic which needs different products to be
- * created.
+ * Base factory class. Note that "factory" is merely a role for the class. It should have some core business logic which needs different products to
+ * be created.
  */
 public abstract class Dialog {
 

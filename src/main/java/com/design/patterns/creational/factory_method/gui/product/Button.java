@@ -1,4 +1,4 @@
-package com.design.patterns.creational.factory_method.example.gui.product;
+package com.design.patterns.creational.factory_method.gui.product;
 
 public interface Button {
 

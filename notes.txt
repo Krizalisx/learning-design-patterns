@@ -37,3 +37,6 @@
 
 - The key difference between the Iterator and the Bridge patterns is that each concrete iterable is coupled to a set of concrete iterator classes it
   returns, whereas in the Bridge pattern it operates on interfaces. However, a client isn't coupled to the concrete implementations in both cases.
+
+- State pattern looks similar to Strategy pattern, however, concrete states change state of the context, hence, know about each other and their
+ methods are void. Moreover, the pattern helps us to avoid branching and 'if's hell.

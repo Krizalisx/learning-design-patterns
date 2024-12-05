@@ -40,3 +40,6 @@
 
 - State pattern looks similar to Strategy pattern, however, concrete states change state of the context, hence, know about each other and their
  methods are void. Moreover, the pattern helps us to avoid branching and 'if's hell.
+
+- We shouldn't use Java's Cloneable as implementation of Prototype pattern, because it's deeply flawed (see Joshua Bloch 'Effective Java' book).
+  Instead, it's preferable to use Copy Constructor or Copy Factory (simple factory method) approach.

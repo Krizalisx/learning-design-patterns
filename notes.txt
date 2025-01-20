@@ -43,3 +43,5 @@
 
 - We shouldn't use Java's Cloneable as implementation of Prototype pattern, because it's deeply flawed (see Joshua Bloch 'Effective Java' book).
   Instead, it's preferable to use Copy Constructor or Copy Factory (simple factory method) approach.
+
+- Memento utilizes Tell-Don't-Ask principle. In addition, an outer class has access to the inner class's private fields.

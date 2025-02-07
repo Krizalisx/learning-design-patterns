@@ -47,3 +47,5 @@
 - Memento utilizes Tell-Don't-Ask principle. In addition, an outer class has access to the inner class's private fields.
 
 - Mediator looks like Facade, however Facade doesn't add new functionality in a system, whereas Mediator changes the way colleagues communicate.
+
+- Chain of Responsibility is essentially Linked List or Composite patter with a single lineage.

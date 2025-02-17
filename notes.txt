@@ -49,3 +49,5 @@
 - Mediator looks like Facade, however Facade doesn't add new functionality in a system, whereas Mediator changes the way colleagues communicate.
 
 - Chain of Responsibility is essentially Linked List or Composite patter with a single lineage.
+
+- Visitor pattern is primarily about separation behavior from object (which, in turn, violates tell-don't-ask principle).
